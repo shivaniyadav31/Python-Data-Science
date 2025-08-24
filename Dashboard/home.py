@@ -2,8 +2,8 @@
 #alternative option to run the server - python -m streamlit run filename.py
 import streamlit as st
 
-st.markdown('<h1 style="color:white; border: 12px solid pink; text-align:center"> 🚢 Welcome to the Titanic Dashboard 🚢</h1>',unsafe_allow_html=True)  #heading
-st.set_page_config(page_title="Titanic Dashboard", page_icon="🚢", layout="centered")
+st.markdown('<h1 style="color:white; border: 12px solid pink; text-align:center">  Welcome to titanic dashboard </h1>',unsafe_allow_html=True)  #heading
+st.set_page_config(page_title="Titanic Dashboard", layout="centered")
 
 st.markdown('<div style="text-align: center; margin-top: 20px;"> <img src="assets\titanic-e1485201046467.jpg" alt="Titanic Dashboard" style="max-width: 70%; border-radius: 10px;"></div>',unsafe_allow_html=True)  #image
 
