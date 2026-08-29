@@ -6,4 +6,6 @@ def play_game():
     while True:
         user_num = input("Guess the lucky number")
 
-        if user_num == luvky_num
+        if user_num == lucky_num:
+            print("YOU WON.... Game over!!!")
+            
