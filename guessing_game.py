@@ -15,3 +15,5 @@ def play_game():
             print("Too high...")
 
     print("Thank You for playing.")
+
+play_game()
