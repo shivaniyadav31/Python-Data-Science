@@ -8,4 +8,7 @@ def play_game():
 
         if user_num == lucky_num:
             print("YOU WON.... Game over!!!")
-            
+        elif user_num < lucky_num:
+            print("Too low...")
+        else: 
+            print("Too high...")
